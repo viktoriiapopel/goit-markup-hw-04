@@ -155,7 +155,10 @@ body {
 
   .hero-background {
      background: #001f3f;
-   padding: 188px 0;
+     background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url("../images/peopleoffice.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 188px 0;
 
   }
 
@@ -342,6 +345,10 @@ body {
     padding: 100px 0;
  }
 
+ .logo-foot-cointainer {
+  
+ }
+
 
  .logo-footer {
     font-family: var(--second-family);
@@ -370,4 +377,28 @@ body {
     line-height: 1.5;
     color: var(--cloud);
     width: 264px;
+ }
+
+ .social-cont{
+  width: 208px;
+ }
+
+ .social-item {
+   display: flex;
+ 
+ 
+   
+ }
+ .footer-social {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+ }
+
+ .social-link {
+  
  }
