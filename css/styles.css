@@ -188,8 +188,8 @@ body {
      background-size: cover;
      background-position: center;
      max-width: 1440px;
-   padding: 188px 0;
-
+     padding: 188px 0;
+     margin: 0 auto;
   }
 
 
@@ -458,14 +458,8 @@ margin-bottom: 8px;
  .content-footer {
    display: flex;
    align-items: baseline;
- }
-
- .logo-foot-container {
    margin-right: 120px;
-
-  
  }
-
 
  .logo-footer {
     font-family: var(--second-family);
@@ -495,11 +489,6 @@ margin-bottom: 8px;
     color: var(--cloud);
     width: 264px;
  }
-
- .social-cont{
-  width: 208px;
- }
-
  
  .footer-social-text {
     font-family: var(--font-family);
@@ -513,13 +502,12 @@ margin-bottom: 8px;
 
  .social-item-footer {
    display: flex;
-      gap: 16px;
+   gap: 16px;
 
  }
  .social-footer {
    width: 40px;
    height: 40px;
-   background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  .social-link-footer {
